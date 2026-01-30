@@ -2,8 +2,12 @@ name: Daily Biotech Scrape
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Midnight UTC
-  workflow_dispatch: # Allows you to run it manually for testing
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
+
+# FIX 1: Grant write permissions so the bot can push data
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -19,15 +23,21 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install pandas feedparser
+          pip install pandas feedparser requests lxml
           
       - name: Run Scraper
-        run: python scraper.py
+        run: |
+          # FIX 2: Ensure the data directory exists before running the script
+          mkdir -p data
+          python scraper.py
         
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/research_data.csv
+          # FIX 3: Force add the file in case it's new
+          git add data/research_data.csv || echo "File not found, skipping add"
           git commit -m "Auto-update: New research data" || echo "No changes to commit"
+          # FIX 4: Pull before push to avoid 'rejected' errors if the repo changed
+          git pull --rebase
           git push
