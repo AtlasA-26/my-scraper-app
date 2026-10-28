@@ -1,11 +1,11 @@
 Date,Source,Region,Headline,Link
-2026-10-27,ArXiv Biotech,Global,GoCo: structure-guided conformal calibration for error-controlled Gene Ontology annotation release,https://arxiv.org/abs/2610.32990
-2026-10-27,ArXiv Biotech,Global,TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology,https://arxiv.org/abs/2610.32993
-2026-10-27,ArXiv Biotech,Global,CausalOdyssey: Multi-Agent Local LLM Reasoning with Per-Patient Causal Structure for Rare Disease Retrieval,https://arxiv.org/abs/2610.32995
-2026-10-27,ArXiv Biotech,Global,"A Multimodal Machine Learning Framework Integrating Genomic, Epidemiological, Environmental, and Clinical Imaging Data for Accelerated Measles Detection and Transmission Inference",https://arxiv.org/abs/2610.32996
-2026-10-27,ArXiv Biotech,Global,ARMD-Predict: multi-site machine learning to predict antibiotic resistance before culture results,https://arxiv.org/abs/2610.32998
-2026-10-27,ArXiv Biotech,Global,An Exploratory Multiome Analysis of a BCG-Associated HSPC Signature: Trained-Immunity Marker in Blood and an Adverse Prognostic Association in Tumour,https://arxiv.org/abs/2610.32999
-2026-10-27,ArXiv Biotech,Global,Canonical residual physics-informed neural networks and algorithmic perturbation landscapes map cell-fate transitions in longitudinal H3K27M glioma,https://arxiv.org/abs/2610.33000
-2026-10-27,ArXiv Biotech,Global,"Debate, Not Voting: Agentic Arbitration over Weak Optical Chemical Structure Recognition Models",https://arxiv.org/abs/2610.33002
-2026-10-27,ArXiv Biotech,Global,TargetAgent: Mathematical AI Co-Scientist for Drug Target Identification,https://arxiv.org/abs/2610.33003
-2026-10-27,ArXiv Biotech,Global,RADAgent: Automating RADseq Pipelines with Private Open-Source LLMs,https://arxiv.org/abs/2610.33009
+2026-10-28,ArXiv Biotech,Global,scPyviewer: a Python-native interactive viewer from AnnData single-cell data,https://arxiv.org/abs/2610.35890
+2026-10-28,ArXiv Biotech,Global,"Structure, Not Sequence: Tracking and Validating Folding Mechanisms in ESMFold's Trunk with Sparse Autoencoders",https://arxiv.org/abs/2610.36226
+2026-10-28,ArXiv Biotech,Global,Temporal smoothness constraints on efficient neurobiological codes imply temporal specialization,https://arxiv.org/abs/2610.36272
+2026-10-28,ArXiv Biotech,Global,Enhancing Clinical Classifier Robustness with Deep Representation Learning Based OOD Detection on DNA Methylation Data,https://arxiv.org/abs/2610.36344
+2026-10-28,ArXiv Biotech,Global,HELICS: Biobank-scale Conditional Synthetic Genome Generation via Latent Flow Matching,https://arxiv.org/abs/2610.36361
+2026-10-28,ArXiv Biotech,Global,Stationary Action Principles for Neuronal Growth,https://arxiv.org/abs/2610.36463
+2026-10-28,ArXiv Biotech,Global,The geometry of cognition: from neural populations to neurotechnology,https://arxiv.org/abs/2610.36541
+2026-10-28,ArXiv Biotech,Global,Neuronal Identity as an Organizational Basis for Analyzing Neural Population Dynamics,https://arxiv.org/abs/2610.36745
+2026-10-28,ArXiv Biotech,Global,Exploring Neural Dynamics with Time Delays: A Numerical and Bifurcation Analysis Approach,https://arxiv.org/abs/2610.36920
+2026-10-28,ArXiv Biotech,Global,pyTransRate: 1 reference-free quality assessment of de novo transcriptome assemblies with current aligners and quantifiers,https://arxiv.org/abs/2610.37031
